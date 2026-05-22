@@ -33,7 +33,24 @@
       <a href="#">Cart (0)</a>
       <span class="cart-dot" aria-hidden="true"></span>
     </div>
+    <button class="nav-burger" aria-label="Open menu" aria-expanded="false" id="nav-burger">
+      <span></span><span></span><span></span>
+    </button>
   </header>
+
+  <div class="nav-overlay" id="nav-overlay" aria-hidden="true">
+    <nav class="nav-overlay-links" aria-label="Mobile navigation">
+      <a href="#">Shop</a>
+      <a href="#collection">Collection</a>
+      <a href="#">Our Story</a>
+      <a href="#">Journal</a>
+    </nav>
+    <div class="nav-overlay-divider" aria-hidden="true"></div>
+    <div class="nav-overlay-sub">
+      <a href="#">Account</a>
+      <a href="#">Cart (0)</a>
+    </div>
+  </div>
 
   <main>
 
@@ -45,8 +62,8 @@
         <p class="hero-tag">Wear the Night.</p>
         <span class="rule" aria-hidden="true"></span>
         <p class="hero-copy">
-          Fragrances crafted for those who don&rsquo;t follow the light.
-          Bold. Refined. Unapologetically you.
+          Crafted for those who don&rsquo;t follow the light.<br>
+          Bold, refined, unapologetically dark.
         </p>
         <a href="#collection" class="cta">
           <span>Discover the Collection</span>
@@ -112,20 +129,26 @@
     <section class="showcase">
       <div class="showcase-inner">
         <div class="showcase-layout">
-          <ul class="sc-notes sc-left">
-            <li>Smoky Amber</li>
-            <li>Black Pepper</li>
-            <li>White Musk</li>
-          </ul>
+          <div class="sc-col">
+            <p class="sc-group-label">Top Notes</p>
+            <ul class="sc-notes sc-left">
+              <li>Smoky Amber</li>
+              <li>Black Pepper</li>
+              <li>White Musk</li>
+            </ul>
+          </div>
           <div class="showcase-bottle-wrap">
             <img class="showcase-bottle" src="images/showcase-bottle.png"
               alt="VANTA After Dark" draggable="false">
           </div>
-          <ul class="sc-notes sc-right">
-            <li>Dark Oud</li>
-            <li>Atlas Cedar</li>
-            <li>Labdanum</li>
-          </ul>
+          <div class="sc-col">
+            <p class="sc-group-label">Base Notes</p>
+            <ul class="sc-notes sc-right">
+              <li>Dark Oud</li>
+              <li>Atlas Cedar</li>
+              <li>Labdanum</li>
+            </ul>
+          </div>
         </div>
         <p class="showcase-line">Designed to leave a presence.</p>
       </div>
@@ -321,8 +344,13 @@
   </main>
 
   <!-- ── ASSURANCE BAR ─────────────────────────────────────────────── -->
-  <section class="assurance" data-reveal>
-    <ul class="assurance-strip">
+  <section class="assurance">
+    <ul class="assurance-strip" aria-label="Brand assurances">
+      <li>Extrait de Parfum</li>
+      <li>Free Shipping Over &#8377;2499</li>
+      <li>Clean Formula</li>
+      <li>Secure Checkout</li>
+      <li>Sample With Every Order</li>
       <li>Extrait de Parfum</li>
       <li>Free Shipping Over &#8377;2499</li>
       <li>Clean Formula</li>
@@ -380,7 +408,7 @@
     </div>
 
     <div class="sf-bottom">
-      <p class="sf-copy">&copy; 2025 VANTA. All rights reserved.</p>
+      <p class="sf-copy">&copy; 2026 VANTA. All rights reserved.</p>
       <div class="sf-legal">
         <a href="#">Privacy Policy</a>
         <a href="#">Terms of Service</a>

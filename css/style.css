@@ -1059,7 +1059,7 @@ img { display: block; max-width: 100%; }
 }
 .cg-card:last-child .cg-img {
   flex: 0 0 46%;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 1 / 1;
   height: auto;
   min-height: 0;
 }
@@ -1339,7 +1339,7 @@ img { display: block; max-width: 100%; }
   .col-grid            { padding: 80px 32px 100px; }
   .cg-cards            { grid-template-columns: repeat(2, 1fr); }
   .cg-card:last-child  { flex-direction: column; grid-column: auto; }
-  .cg-card:last-child .cg-img  { flex: none; aspect-ratio: 4 / 3; height: auto; }
+  .cg-card:last-child .cg-img  { flex: none; aspect-ratio: 1 / 1; height: auto; }
   .cg-card:last-child .cg-info { border-left: none; border-top: 1px solid var(--line-2); padding: 24px 22px 30px; }
   .fc-brand            { font-size: clamp(4rem, 14vw, 8rem); }
 }

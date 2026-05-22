@@ -645,23 +645,16 @@ img { display: block; max-width: 100%; }
 }
 .ing-tile:hover { filter: brightness(1.18); }
 .ing-wood {
-  background:
-    radial-gradient(ellipse at 35% 45%, rgba(100,60,15,.45) 0%, transparent 65%),
-    linear-gradient(150deg, #1e1309 0%, #0f0b05 100%);
+  background: url('../images/ing-wood.jpg') center/cover no-repeat;
 }
 .ing-amber {
-  background:
-    radial-gradient(ellipse at 65% 35%, rgba(190,105,20,.4) 0%, transparent 60%),
-    linear-gradient(130deg, #2e1600 0%, #160900 100%);
+  background: url('../images/ing-amber.jpg') center/cover no-repeat;
 }
 .ing-smoke {
-  background:
-    radial-gradient(ellipse at 40% 55%, rgba(90,80,65,.3) 0%, transparent 60%),
-    #111;
+  background: url('../images/ing-smoke.jpg') center/cover no-repeat;
 }
 .ing-pepper {
-  background:
-    linear-gradient(160deg, #0e0e0e 0%, #060606 100%);
+  background: url('../images/ing-pepper.jpg') center/cover no-repeat;
 }
 .ing-label {
   font-size: 10px;
